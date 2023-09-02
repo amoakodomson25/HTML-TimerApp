@@ -1,5 +1,5 @@
-# HTML-TimerApp
-This is a simple timer app.
+# TimerApp
+This is a simple timer web app. Built with basic HTML5, CSS & JS.
 
 Features
   
