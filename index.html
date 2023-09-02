@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Timer App</title>
+  </head>
+
+  <body>
+    <div class="header">Timer App</div>
+    <div class="container">
+      <div class="time-input">
+        <div class="description">SET TIMER</div>
+        <div class="inputts">
+          <div class="flex">
+            <input
+              type="number"
+              min="1"
+              max="60"
+              id="mins"
+              placeholder="Mins"
+              required
+            />
+            <input
+              type="number"
+              min="1"
+              max="60"
+              id="secs"
+              placeholder="Secs"
+              required
+            />
+          </div>
+          <div class="button">
+            <button onclick="startTimer();" id="startBtn">Start</button>
+          </div>
+        </div>
+      </div>
+      <div class="reset">
+        <a onclick="stopTimer()">Reset Timer</a>
+        <a onclick="refreshPage()">Refresh Page</a>
+      </div>
+    </div>
+    <div class="time-outputs">
+      <div class="displayTime">
+        <span id="minsDis">00</span>
+        :
+        <span id="secsDisp">00</span>
+      </div>
+    </div>
+    <div class="stop">
+      <button class="stopButton" onclick="stopSong()">Stop Alarm</button>
+    </div>
+    <p style="color: white; margin-top: 20px; text-align: center">
+      Don't leave either Mins or Secs blank. <br />
+      Refresh page after every timer it goes off. <br />
+      For better experience.
+    </p>
+
+    <footer>
+      <div class="flex-wrapper">
+        <a href="" style="text-decoration: underline">Other Projects</a>
+      </div>
+      <br />
+      <div class="flex-wrapper">
+        <p>&COPY; Amoako Domson Wahab</p>
+      </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

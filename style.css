@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*background: linear-gradient(to bottom right, #1da5ff, #00000020);*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 25px;
+  margin: 0 0 25px 0;
+}
+
+.container {
+  width: 340px;
+  height: 220px;
+  background-color: #000;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  color: #fff;
+}
+.time-input {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.flex input {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding: 10;
+  border: 0;
+  margin: 0 5px;
+  background-color: #000;
+}
+.flex input::-webkit-inner-spin-button,
+.flex input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.button button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px 0;
+  border: 1px solid #00000010;
+  font-size: 18px;
+  background-color: #1da5ff90;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 12px;
+  transition: 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button button[disabled] {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
+.button button:hover {
+  background-color: #004777;
+  color: #fff;
+  border: 1px solid #1da5ff;
+  letter-spacing: 3px;
+}
+.time-outputs {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.displayTime {
+  font-size: 50px;
+  color: #fff;
+}
+
+.reset {
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.reset a:hover {
+  color: #004777;
+  border-bottom: 1px solid #004777;
+}
+.reset a {
+  cursor: pointer;
+  font-size: 17px;
+  color: #1da5ff90;
+  border-bottom: 1px solid #1da5ff50;
+  transition: 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin-right: 10px;
+}
+.stop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.stopButton {
+  width: 160px;
+  height: 40px;
+  padding: 10px 5px;
+  border: 2px solid #00000020;
+  font-size: 18px;
+  background-color: #1da5ff;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 12px;
+  transition: 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.stopButton:hover {
+  background-color: #004777;
+  color: #fff;
+  border: 1px solid #1da5ff;
+  letter-spacing: 2px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #010001;
+  padding: 20px 50px;
+  color: #fffbfc;
+  display: block;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.flex-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
