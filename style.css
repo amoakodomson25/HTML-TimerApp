@@ -128,7 +128,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
 }
 .stopButton {
   width: 160px;
@@ -154,7 +153,7 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #010001;
-  padding: 20px 50px;
+  padding: 0px 50px;
   color: #fffbfc;
   display: block;
 }
