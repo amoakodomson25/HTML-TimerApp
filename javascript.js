@@ -3,7 +3,7 @@ function refreshPage() {
 }
 var timeLeft;
 var timeId;
-const audio = new Audio("alarm1.mp3");
+const audio = new Audio("/alarm1.mp3");
 function stopSong() {
   audio.pause();
   audio.currentTime = 0;
