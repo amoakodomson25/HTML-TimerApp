@@ -1,6 +1,8 @@
 # TimerApp
 This is a simple timer web app. Built with basic HTML5, CSS & JS.
 
+Demo: https://wad-timer-app.netlify.app/
+
 Features
   
 * User can set time in minutes or in seconds or in both.
